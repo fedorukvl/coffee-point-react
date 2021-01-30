@@ -1,2 +1,3 @@
 import App from "./App/App.jsx";
-export { App };
+import Navigation from "./Navigation/Navigation.jsx";
+export { App, Navigation };

@@ -1,9 +1,18 @@
 import React from "react";
 
+import { Navigation } from "../index.js";
+
 function App() {
+  const navigationList = [
+    { id: 1, title: "наши точки" },
+    { id: 2, title: "френд-пасс" },
+    { id: 3, isLogo: true, title: "coffee-point" },
+    { id: 4, title: "журнал" },
+    { id: 5, title: "наши точки" },
+  ];
   return (
     <div className="App">
-      <h1>Hello world</h1>
+      <Navigation navigationList={navigationList} />
     </div>
   );
 }
