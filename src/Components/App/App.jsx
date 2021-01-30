@@ -1,6 +1,5 @@
 import React from "react";
 
-import { Greeting } from "../index.js";
 function App() {
   return (
     <div className="App">
