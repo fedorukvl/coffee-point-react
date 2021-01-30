@@ -1,0 +1,21 @@
+.navigation {
+  width: 100%;
+  background-color: white;
+  position: fixed;
+  z-index: 999;
+}
+.navigation__list {
+  display: flex;
+  justify-content: space-around;
+}
+.navigation__link {
+  cursor: pointer;
+}
+.navigation__link:hover:not(.navigation__link_logo) {
+  border-bottom: 2px solid black;
+  margin-top: -2px;
+}
+.navigation__link:nth-of-type(3) {
+  flex-shrink: 0;
+  margin: 0 50px;
+}
