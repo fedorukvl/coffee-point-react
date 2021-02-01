@@ -1,0 +1,53 @@
+.slick-next {
+  right: 10px !important;
+}
+.slick-prev {
+  left: 10px !important;
+  z-index: 2;
+}
+.slider-container {
+  display: flex !important;
+  align-items: center;
+  height: 500px;
+}
+
+.slider-container__information {
+  margin: 0 auto;
+}
+
+.slider-container__promo_our-coffe-shops {
+  background: center/cover no-repeat
+    url("../../images/promo-images/preview-shop.jpg");
+}
+.slider-container__promo_magazine {
+  background: center/cover no-repeat
+    url("../../images/promo-images/magazine.jpg");
+}
+.slider-container__promo_friend-pass {
+  background: center/cover no-repeat
+    url("../../images/promo-images/friend-pass.jpg");
+}
+.slider-container__promo_events {
+  background: center/cover no-repeat url("../../images/promo-images/events.jpg");
+}
+.slider-container__title {
+  margin-top: 0;
+  font-size: 50px;
+}
+
+.slider-container__description {
+  font-size: 20px;
+}
+
+.slider-container__button {
+  outline: none;
+  background-color: gray;
+  padding: 10px;
+}
+
+.slick-slide .slider-container__promo {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  width: inherit;
+}
